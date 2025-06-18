@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="img/avatar-perfil.png" alt="avatar do " class="rounded-circle" width="150" height="150"
+            srcset="">
+        <p class="lead">Eu me chamo Breno</p>
+        <h1>E estou cursando o 3º do ensino médio</h1>
+        <p>Tenho 17 anos e  estudo na escola estadual Voluntários Carmo Turano Cedral - SP</p>
+        <p>Minhas habilidades</p>
+          <div class="modal fade" id="CriticoModal" tabindex="-1" aria-labelledby="CriticoModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="CriticoModalLabel"> Meus projeto </h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        <div>
+            <p class="badge bg-secondary">HTML</p>
+            <p class="badge bg-secondary">CSS</p>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <h2>Meus projetos</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-1.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Meu projeto</h5>
+                        <p class="card-text"> Um projeto de uma biblioteca
+                        </p>
+                        <button type="button" class="btn btn-link"data-bs-toggle="modal" data-bs-target="#CriticoModal">Veja a opnião de um aluno crítico.</button>
+                    </div>
+                </div>
+            </div>
+    </main>
+
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <a href="">GitHub</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2025. Produzido por Breno Bianchi</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
